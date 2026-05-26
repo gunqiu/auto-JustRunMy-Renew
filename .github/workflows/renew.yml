@@ -5,9 +5,9 @@ on:
   # 手动触发
   workflow_dispatch:
   
-  # 定时触发 (每2天凌晨1点)
+  # 定时触发 (每2天凌晨2点)
   schedule:
-    - cron: '0 1 */2 * *'
+    - cron: '0 2 */2 * *'
 
 # 权限配置
 permissions:
